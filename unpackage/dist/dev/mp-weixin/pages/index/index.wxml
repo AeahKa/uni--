@@ -1,0 +1,1 @@
+<view class="content"><view class="text-area"><text class="main">今天吃{{a}}</text></view><view class="operator"><button class="btn" style="color:#222222">{{b}}</button></view></view>

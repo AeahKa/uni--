@@ -4,7 +4,7 @@
 			<text class="main">今天吃{{item}}</text>
 		</view>
 		<view class="operator">
-			<button>开始</button>
+			<button class="btn" style="color: #222222;">{{buttonText}}</button>
 		</view>
 	</view>
 </template>
@@ -13,7 +13,8 @@
 	export default {
 		data() {
 			return {
-				item: '啥'
+				item: '啥',
+				buttonText: "随机选一样"
 			}
 		},
 		onLoad() {
@@ -33,22 +34,25 @@
 		justify-content: center;
 	}
 
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin-top: 200rpx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50rpx;
-	}
-
 	.text-area {
 		display: flex;
 		justify-content: center;
+		border: red 1px solid;
+		margin-top: 20vh;
+		font-size: 72rpx;
+		font-weight: 600;
 	}
 
-	.title {
-		font-size: 36rpx;
+	.operator {
+		border: red 1px solid;
+		margin-top: 30vh;
+	}
+
+	.btn {
+		background: #ffd103;
+		font-size: 48rpx;
 		color: #8f8f94;
+		border-radius: 25cm 25cm 25cm 25cm;
+		width: 600rpx;
 	}
 </style>
