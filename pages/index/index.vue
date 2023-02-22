@@ -1,10 +1,10 @@
 <template>
 	<view class="content">
 		<view class="text-area">
-			<text class="main">今天吃{{title}}</text>
+			<text class="main">今天吃{{item}}</text>
 		</view>
 		<view class="operator">
-			<button></button>
+			<button>开始</button>
 		</view>
 	</view>
 </template>
@@ -13,7 +13,7 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				item: '啥'
 			}
 		},
 		onLoad() {
