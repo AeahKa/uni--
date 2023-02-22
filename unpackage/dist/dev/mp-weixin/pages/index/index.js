@@ -7,7 +7,7 @@ const _sfc_main = {
       list: [
         "\u767D\u7CA5",
         "\u70E7\u70E4",
-        "\u706B\u9505",
+        "\u9EBB\u8FA3\u706B\u9505",
         "\u732A\u811A\u996D",
         "\u6C99\u62C9",
         "\u80AF\u5FB7\u57FA",
@@ -21,7 +21,14 @@ const _sfc_main = {
         "\u997A\u5B50",
         "\u5170\u5DDE\u62C9\u9762",
         "\u767D\u9762\u9992\u5934",
-        "\u6CE1\u9762"
+        "\u6CE1\u9762",
+        "\u8089\u5939\u998D",
+        "\u70E4\u9C7C",
+        "\u70E4\u8089",
+        "\u6CF0\u83DC",
+        "\u9EBB\u8FA3\u70EB",
+        "\u725B\u8089\u706B\u9505",
+        "\u6D77\u9C9C"
       ],
       choosing: false
     };
