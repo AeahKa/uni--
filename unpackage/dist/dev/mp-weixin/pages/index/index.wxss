@@ -9,14 +9,15 @@
 .text-area {
 		display: flex;
 		justify-content: center;
-		margin-top: 20vh;
+		height: 72vh;
 		font-size: 72rpx;
 		font-weight: 600;
 		color: #222222;
 }
-.operator {
-		margin-top: 30vh;
+.text {
+		margin-top: 24vh;
 }
+.operator {}
 .btn {
 		background: #ffd103;
 		font-size: 48rpx;

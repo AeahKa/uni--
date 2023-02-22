@@ -1,7 +1,7 @@
 <template>
 	<view class="content">
 		<view class="text-area">
-			<text class="main">去吃{{item}}</text>
+			<text class="text">去吃{{item}}</text>
 		</view>
 		<view class="operator">
 			<button class="btn" style="color: #222222;" @click="start">{{choosing?'换一个':'随机选一样'}}</button>
@@ -15,7 +15,9 @@
 		data() {
 			return {
 				item: '啥',
-				list: ['白粥', '烧烤', '火锅', '猪脚饭', '沙拉', '肯德基', '麦当劳', '出门看到的第一家店', '饭堂'],
+				list: ['白粥', '烧烤', '火锅', '猪脚饭', '沙拉', '肯德基', '麦当劳', '出门看到的第一家店', '饭堂', '肠粉', '披萨', '寿司', '鸡煲', '饺子',
+					'兰州拉面', '白面馒头', '泡面'
+				],
 				choosing: false
 			}
 		},
@@ -43,15 +45,17 @@
 	.text-area {
 		display: flex;
 		justify-content: center;
-		margin-top: 20vh;
+		height: 72vh;
 		font-size: 72rpx;
 		font-weight: 600;
 		color: #222222;
 	}
 
-	.operator {
-		margin-top: 30vh;
+	.text {
+		margin-top: 24vh;
 	}
+
+	.operator {}
 
 	.btn {
 		background: #ffd103;

@@ -1,1 +1,1 @@
-<view class="content"><view class="text-area"><text class="main">去吃{{a}}</text></view><view class="operator"><button class="btn" style="color:#222222" bindtap="{{c}}">{{b}}</button></view></view>
+<view class="content"><view class="text-area"><text class="text">去吃{{a}}</text></view><view class="operator"><button class="btn" style="color:#222222" bindtap="{{c}}">{{b}}</button></view></view>
